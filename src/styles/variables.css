@@ -1,0 +1,31 @@
+
+:root {
+    /* FONTS */
+    --font-family-text: 'Avenir', sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --font-size-base: 10px;
+
+    /* COLORS */
+	--white: #fff;
+	--black: #000;
+
+	--gray-opacity-1: #00000008;
+	--gray-opacity-2: #0000001A;
+	--gray-opacity-3: #00000033;
+	--gray-opacity-4: #0000004D;
+	--gray-opacity-5: #00000080;
+
+	--primary: #461E7D;
+	--darkprimary: #280A50;
+	--blackprimary: #1C0639;
+	
+	--secondary: #FD6600;
+	--complementary: #5738FF;
+	--tertiary: #FF006E;
+	
+	--blue: #2CFEF9;
+	--green: #2AFD95;
+}

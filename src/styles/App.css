@@ -1,0 +1,35 @@
+
+@font-face {
+  font-family: 'Avenir';
+  src:  url('/fonts/Avenir-Book.woff2');
+  src:  url('/fonts/Avenir-Book.woff2') format('woff2'),
+        url('/fonts/Avenir-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src:  url('/fonts/Avenir-Black.woff2');
+  src:  url('/fonts/Avenir-Black.woff2') format('woff2'),
+        url('/fonts/Avenir-Black.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  font-family: var(--font-family-text);
+  font-weight: var(--font-weight-regular);
+  font-size: calc(var(--font-size-base) * 1.5);
+  line-height: calc(var(--font-size-base) * 2);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[type="checkbox"]:checked {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='10' height='10' viewBox='0 0 1024 1024' style='enable-background:new 0 0 1024 1024;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath class='st0' d='M0,530.7l143.4-144.1l243,245.8l525.4-530l143.4,144.2l-526,530.1l0.6,0.6L386.5,921.5L0,530.7z'/%3E%3C/svg%3E%0A");
+}

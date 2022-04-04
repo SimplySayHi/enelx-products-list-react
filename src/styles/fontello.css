@@ -1,0 +1,441 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('/fonts/icomoon.eot?mwrbot');
+	src: url('/fonts/icomoon.eot?mwrbot#iefix') format('embedded-opentype'),
+	url('/fonts/icomoon.ttf?mwrbot') format('truetype'),
+	url('/fonts/icomoon.woff?mwrbot') format('woff'),
+	url('/fonts/icomoon.svg?mwrbot#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	line-height: 1;
+	
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	text-decoration: none;
+}
+
+.icon--badge {
+	border-radius: 50%;
+	width: 1rem;
+	height: 1rem;
+	font-size: .5em;
+	line-height: 1rem;
+	text-align: center;
+	text-indent: -.1em;
+	background: var(--blue);
+	color: var(--primary);
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icon-card_cliente_enel:before {
+	content: "\e951";
+}
+
+.icon-tooltip-off:before {
+	content: "\e94d";
+}
+
+.icon-tooltip-on:before {
+	content: "\e94e";
+}
+
+.icon-upload:before {
+	content: "\e946";
+}
+
+.icon-icon-bonifico:before {
+	content: "\e94f";
+}
+
+.icon-icon-credit_card:before {
+	content: "\e950";
+}
+
+.icon-email:before {
+	content: "\e947";
+}
+
+.icon-link:before {
+	content: "\e948";
+}
+
+.icon-messenger:before {
+	content: "\e949";
+}
+
+.icon-twitter:before {
+	content: "\e94a";
+}
+
+.icon-Filter:before {
+	content: "\e944";
+}
+
+.icon-star:before {
+	content: "\e908";
+}
+
+.icon-slider_left:before {
+	content: "\e939";
+	
+}
+
+.icon-slider_right:before {
+	content: "\e93a";
+	
+}
+
+.icon-lock:before {
+	content: "\e93b";
+	
+}
+
+.icon-faq:before {
+	content: "\e93c";
+	
+}
+
+.icon-accedi:before {
+	content: "\e900";
+	
+}
+
+.icon-registrato:before {
+	content: "\e901";
+	
+}
+
+.icon-arrow-left:before {
+	content: "\e904";
+	
+}
+
+.icon-arrow-right:before {
+	content: "\e905";
+	
+}
+
+.icon-arrow-top:before {
+	content: "\e906";
+	
+}
+
+.icon-arrow_bottom:before {
+	content: "\e907";
+	
+}
+
+.icon-cross:before {
+	content: "\e914";
+	
+}
+
+.icon-ricerca:before {
+	content: "\e931";
+	
+}
+
+.icon-carrello:before {
+	content: "\e90c";
+	
+}
+
+.icon-share:before {
+	content: "\e934";
+	
+}
+
+.icon-attesa:before {
+	content: "\e90a";
+	
+}
+
+.icon-check:before {
+	content: "\e912";
+	
+}
+
+.icon-rating-on:before {
+	content: "\e930";
+	
+}
+
+.icon-rating-off:before {
+	content: "\e92f";
+	
+}
+
+.icon-preferiti:before {
+	content: "\e92d";
+}
+
+.icon-preferiti_filled:before {
+	content: "\e945";
+}
+
+.icon-plus:before {
+	content: "\e92c";
+	
+}
+
+.icon-minus:before {
+	content: "\e936";
+	
+}
+
+.icon-assistenza:before {
+	content: "\e909";
+	
+}
+
+.icon-solo-acqua:before {
+	content: "\e935";
+	
+}
+
+.icon-caldaia:before {
+	content: "\e90b";
+	
+}
+
+.icon-acquacaldaia:before {
+	content: "\e903";
+	
+}
+
+.icon-pannello_solare:before {
+	content: "\e91f";
+	
+}
+
+.icon-icon-tipo-appartamento-villetta:before {
+	content: "\e942";
+	
+}
+
+.icon-icon-tipo-appartamento:before {
+	content: "\e943";
+	
+}
+
+.icon-casa:before {
+	content: "\e90d";
+	
+}
+
+.icon-casa-falda .path1:before {
+	content: "\e90e";
+	
+}
+
+.icon-casa-falda .path2:before {
+	content: "\e90f";
+	margin-left: -1em;
+	
+}
+
+.icon-casa-piano .path1:before {
+	content: "\e910";
+	
+}
+
+.icon-casa-piano .path2:before {
+	content: "\e911";
+	margin-left: -1em;
+	
+}
+
+.icon-climatizzatore:before {
+	content: "\e913";
+	
+}
+
+.icon-elettricita:before {
+	content: "\e915";
+	
+}
+
+.icon-esci:before {
+	content: "\e917";
+	
+}
+
+.icon-elettrodomestici_tecnologia:before {
+	content: "\e916";
+	
+}
+
+.icon-risparmio:before {
+	content: "\e93d";
+	
+}
+
+.icon-telefono:before {
+	content: "\e902";
+	
+}
+
+.icon-chat:before {
+	content: "\e93e";
+	
+}
+
+.icon-spedizioni:before {
+	content: "\e93f";
+	
+}
+
+.icon-installazione:before {
+	content: "\e919";
+	
+}
+
+.icon-account:before {
+	content: "\e91a";
+	
+}
+
+.icon-mobilita_elettrica:before {
+	content: "\e91b";
+	
+}
+
+.icon-offerte:before {
+	content: "\e91c";
+	
+}
+
+.icon-ordini:before {
+	content: "\e91d";
+	
+}
+
+.icon-pagamenti:before {
+	content: "\e91e";
+	
+}
+
+.icon-piano-intermedio .path1:before {
+	content: "\e920";
+	
+}
+
+.icon-piano-intermedio .path2:before {
+	content: "\e921";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-intermedio .path3:before {
+	content: "\e922";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-intermedio .path4:before {
+	content: "\e923";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-terra .path1:before {
+	content: "\e924";
+	
+}
+
+.icon-piano-terra .path2:before {
+	content: "\e925";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-terra .path3:before {
+	content: "\e926";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-terra .path4:before {
+	content: "\e927";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-ultimo .path1:before {
+	content: "\e928";
+	
+}
+
+.icon-piano-ultimo .path2:before {
+	content: "\e929";
+	margin-left: -1em;
+	
+}
+
+.icon-piano-ultimo .path3:before {
+	content: "\e92a";
+	margin-left: -1em;
+	
+	opacity: 0.996;
+}
+
+.icon-player:before {
+	content: "\e92b";
+	
+}
+
+.icon-profilo:before {
+	content: "\e92e";
+	
+}
+
+.icon-riscaldamento:before {
+	content: "\e932";
+	
+}
+
+.icon-servizi_casa:before {
+	content: "\e933";
+	
+}
+
+.icon-youtube:before {
+	content: "\e918";
+	
+}
+
+.icon-linkedin:before {
+	content: "\e937";
+	
+}
+
+.icon-facebook:before {
+	content: "\e938";
+	
+}
+
+.icon-facebook_2:before {
+	content: "\e940";
+	
+}
+
+.icon-google_2:before {
+	content: "\e941";
+	
+}
