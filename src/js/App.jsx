@@ -1,13 +1,13 @@
 
 import { useEffect, useState } from 'react'
 
-import Dropdown from './components/UI/Dropdown'
-import FiltersList from './components/FiltersList'
-import ProductsList from './components/ProductsList'
-import Pagination from './components/Pagination'
-import Compare from './components/Compare'
+import Dropdown from '@components/UI/Dropdown'
+import FiltersList from '@components/FiltersList'
+import ProductsList from '@components/ProductsList'
+import Pagination from '@components/Pagination'
+import Compare from '@components/Compare'
 
-import sortDropdownOptions from '../data/sortDropdownOptions.json'
+import sortDropdownOptions from '@data/sortDropdownOptions.json'
 
 function App() {
     const [isLoading, setIsLoading] = useState(true)

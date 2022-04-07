@@ -11,8 +11,10 @@ export default defineConfig({
   plugins: [react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } })],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src/js'),
-      '~': resolve(__dirname, './src/styles')
+      '@data': resolve(__dirname, './src/data'),
+      '@components': resolve(__dirname, './src/js/components'),
+      '@store': resolve(__dirname, './src/js/store'),
+      '~styles': resolve(__dirname, './src/styles')
     },
   },
 })

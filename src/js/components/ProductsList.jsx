@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types'
 import { useCallback, useEffect, useState } from 'react'
 import { useAtom } from 'jotai'
-import { compareListAtom } from '@/store/atoms'
+import { compareListAtom } from '@store/atoms'
 
 import ProductItem from './ProductItem'
 

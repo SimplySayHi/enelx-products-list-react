@@ -1,7 +1,7 @@
 
 import FilterBlock from './FilterBlock'
 
-import filters from '../../data/filters.json'
+import filters from '@data/filters.json'
 
 function FiltersList () {
     return (

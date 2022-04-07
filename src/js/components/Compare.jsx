@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { useAtom } from 'jotai'
 import { CSSTransition } from 'react-transition-group'
-import { compareListAtom } from '@/store/atoms'
+import { compareListAtom } from '@store/atoms'
 
 import Button from './UI/Button'
 import Modal from './UI/Modal'
