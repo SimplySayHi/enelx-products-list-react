@@ -1,0 +1,5 @@
+[
+    { "id": "1", "value": "reviewsBest", "label": "migliori recensioni" },
+    { "id": "2", "value": "priceLow", "label": "prezzo più basso" },
+    { "id": "3", "value": "priceHigh", "label": "prezzo più alto" }
+]

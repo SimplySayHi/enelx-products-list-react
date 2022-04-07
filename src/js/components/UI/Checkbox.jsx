@@ -11,7 +11,7 @@ function Checkbox ({ id, name, value, label, isChecked, onChange, hasReverseLayo
                 value={value}
                 defaultChecked={isChecked}
                 onChange={onChange}
-                className="w-5 h-5 bg-gray-100 appearance-none border-2 border-gray-opacity-2 focus:ring-0 checked:bg-complementary peer" 
+                className="w-5 h-5 bg-white appearance-none border-2 border-gray-opacity-2 focus:ring-0 checked:bg-complementary peer" 
             />
             <label 
                 htmlFor={`checkbox-${id}`} 

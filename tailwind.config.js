@@ -5,25 +5,6 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'inherit': 'inherit',
-      'transparent': 'transparent',
-      'white': 'var(--white)',
-      'black': 'var(--black)',
-      'gray-opacity-1': 'var(--gray-opacity-1)',
-      'gray-opacity-2': 'var(--gray-opacity-2)',
-      'gray-opacity-3': 'var(--gray-opacity-3)',
-      'gray-opacity-4': 'var(--gray-opacity-4)',
-      'gray-opacity-5': 'var(--gray-opacity-5)',
-      'primary': 'var(--primary)',
-      'darkprimary': 'var(--darkprimary)',
-      'blackprimary': 'var(--blackprimary)',
-      'secondary': 'var(--secondary)',
-      'complementary': 'var(--complementary)',
-      'tertiary': 'var(--tertiary)',
-      'blue': 'var(--blue)',
-      'green': 'var(--green)',
-    },
     container: {
       center: true,
       padding: '1rem',
@@ -43,6 +24,21 @@ module.exports = {
       },
       boxShadow: {
         'md-plus': '0px -2px 10px var(--gray-opacity-2);',
+      },
+      colors: {
+        'gray-opacity-1': 'var(--gray-opacity-1)',
+        'gray-opacity-2': 'var(--gray-opacity-2)',
+        'gray-opacity-3': 'var(--gray-opacity-3)',
+        'gray-opacity-4': 'var(--gray-opacity-4)',
+        'gray-opacity-5': 'var(--gray-opacity-5)',
+        'primary': 'var(--primary)',
+        'darkprimary': 'var(--darkprimary)',
+        'blackprimary': 'var(--blackprimary)',
+        'secondary': 'var(--secondary)',
+        'complementary': 'var(--complementary)',
+        'tertiary': 'var(--tertiary)',
+        'blue': 'var(--blue)',
+        'green': 'var(--green)',
       },
       lineHeight: {
         '6.5': '1.625rem'
