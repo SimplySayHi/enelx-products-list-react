@@ -8,29 +8,10 @@ import Pagination from '@components/Pagination'
 import Compare from '@components/Compare'
 
 import productFilterFnMatch from './utils/productFilterFnMatch'
+import sortProductsBy from './utils/sortProductsBy'
 
 import sortDropdownOptions from '@data/sortDropdownOptions.json'
 import filters from '@data/filters.json'
-
-const priceStringToNumber = priceString => {
-    return priceString.split(' ')[0].replace('.', '').replace(',', '.') * 1
-}
-
-const sortProductsBy = ( sortValue, a, b ) => {
-    const priceA = priceStringToNumber(a.price)
-    const priceB = priceStringToNumber(b.price)
-    
-    switch(sortValue){
-        case 'reviewsBest':
-            return a.stars < b.stars
-        case 'priceLow':
-            return priceA > priceB
-        case 'priceHigh':
-            return priceA < priceB
-        default: 
-            return 0
-    }
-}
 
 function App() {
     const [isLoading, setIsLoading] = useState(true)

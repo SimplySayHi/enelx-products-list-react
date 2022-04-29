@@ -4,24 +4,8 @@ import PropTypes from 'prop-types'
 import FilterBlock from './FilterBlock'
 import ProductItem from './ProductItem'
 
-import productFilterFnMatch from '../utils/productFilterFnMatch'
-
-const getFilterLabelWithCounter = (filterName, {label, value}, productsList) => {
-    const productsCount = productsList.filter(item => productFilterFnMatch(filterName, value, item)).length
-    return `${label} (${productsCount})`
-}
-
-const getFiltersFromProducts = (filterName, productsList) => {
-    const filterValues = [...new Set(productsList.map(item => item[filterName]))].sort()
-    return filterValues.map((label, index) => {
-        return {
-            id: `${filterName}_${index}`,
-            name: `filter_${filterName}`,
-            value: label,
-            label
-        }
-    })
-}
+import getFiltersFromProducts from '../utils/getFiltersFromProducts'
+import getFilterLabelWithCounter from '../utils/getFilterLabelWithCounter'
 
 function FiltersList ({ filters, productsList, onFilterChange }) {
     return (
