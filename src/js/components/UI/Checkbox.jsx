@@ -25,7 +25,7 @@ function Checkbox ({ id, name, value, label, isChecked, onChange, hasReverseLayo
 Checkbox.propTypes = {
     id: PropTypes.string,
     name: PropTypes.string,
-    value: PropTypes.string,
+    value: PropTypes.oneOfType([ PropTypes.string, PropTypes.number ]),
     label: PropTypes.string,
     isChecked: PropTypes.bool,
     onChange:  PropTypes.func,

@@ -3,14 +3,16 @@ import PropTypes from 'prop-types'
 
 import Checkbox from './UI/Checkbox'
 
-function FilterBlock ({ title, filters, defaultColor, children }) {
+function FilterBlock ({ title, filters, defaultColor, onFilterChange, children }) {
     const printFilters = () => {
         return (
             filters && 
             <ul className="pt-0.5">
                 {filters.map(filter => (
                     <div key={filter.id} className="mt-2.5">
-                        <Checkbox {...filter} defaultColor={defaultColor} />
+                        <Checkbox {...filter} defaultColor={defaultColor} onChange={(event) => {
+                            onFilterChange(filter, event.target.checked)
+                        }} />
                     </div>
                 ))} 
             </ul>
@@ -28,6 +30,7 @@ FilterBlock.propTypes = {
     title: PropTypes.string,
     filters: PropTypes.arrayOf( PropTypes.object ),
     defaultColor: PropTypes.string,
+    onFilterChange: PropTypes.func,
     children: PropTypes.any
 }
 
